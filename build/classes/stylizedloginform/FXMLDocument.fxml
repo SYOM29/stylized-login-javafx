@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="275.0" prefWidth="300.0" style="-fx-background-color: #2E3348;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="stylizedloginform.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="192.0" layoutY="198.0" onAction="#handleButtonAction" text="Sign In" />
+        <Label fx:id="label" layoutX="41.0" layoutY="108.0" minHeight="16" minWidth="69" text="Username" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="label1" layoutX="41.0" layoutY="152.0" minHeight="16" minWidth="69" text="Password" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <PasswordField layoutX="126.0" layoutY="148.0" />
+      <TextField layoutX="126.0" layoutY="104.0" />
+      <Label fx:id="label2" layoutX="41.0" layoutY="55.0" minHeight="16" minWidth="69" text="Welcome!" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Heavy Italic" size="20.0" />
+         </font>
+      </Label>
+      <MenuBar prefHeight="25.0" prefWidth="300.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+    </children>
+</AnchorPane>
